@@ -19,11 +19,11 @@ p{
 body{
     background-size: cover;
     background-repeat: no-repeat;
-    background: url(tea-green-splash-background.png) fixed;
+    background: url(wallpaper1.jpg) fixed;
 }
 .row{
     padding: 5px;
-    width: 95;
+    width: 95%;
     margin: 20px auto;
 }
 header{
@@ -34,7 +34,7 @@ header{
 }
 .columns{
     display: flex;
-    flex-flow: row-reverse;
+    flex-flow: row wrap;
     justify-content: center;
     margin: 5px 0;
 }
@@ -45,18 +45,18 @@ header{
     padding: 0px;
     background: rgb(199, 233, 11);
 }
-@media(max-width: 1000px){
+@media(max-width: 922px){
     .columns .col{
         margin-bottom: 5px;
     }
 }
-@media(min-width: 760px) and (max-width: 1000px){
+@media(min-width: 768px) and (max-width: 991px){
     .columns .col{
         margin-bottom: 5px;
         flex-basis: 40%;
     }
 }
-@media(max-width: 760px){
+@media(max-width: 767px){
     .columns .col{
         flex-basis: 100%;
     }
